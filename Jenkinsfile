@@ -14,7 +14,7 @@ pipeline{
     }
     post{
         always{
-            archiveArtifacts artifacts: '**/libs/*', fingerprint: true
+            archiveArtifacts artifacts: '**/libs/*-Plugin.jar', fingerprint: true
         }
     }
 }
