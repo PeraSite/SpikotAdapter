@@ -1,0 +1,10 @@
+rootProject.name = "SpikotAdapter"
+include("Common")
+include("Spigot1088")
+include("Spigot1094")
+include("Spigot1102")
+include("Spigot1112")
+include("Spigot1122")
+include("Spigot1132")
+include("Spigot1144")
+include("Spigot1152")
