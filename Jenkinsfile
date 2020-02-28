@@ -14,7 +14,7 @@ pipeline{
     }
     post{
         always{
-            archiveArtifacts artifacts: 'build/**/libs/*', fingerprint: true
+            archiveArtifacts artifacts: '**/libs/*', fingerprint: true
         }
     }
 }
