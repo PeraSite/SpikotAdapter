@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh './gradlew -PnexusUser=${MAVEN_CREDENTIAL_USR} -PnexusPassword=${MAVEN_CREDENTIAL_PSW} createPlugin'
+                sh './gradlew -PnexusUser=${MAVEN_CREDENTIAL_USR} -PnexusPassword=${MAVEN_CREDENTIAL_PSW} --no-daemon createPlugin'
             }
         }
     }
