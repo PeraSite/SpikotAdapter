@@ -8,7 +8,7 @@ repositories {
 
 dependencies {
     compileOnly(kotlin("stdlib-jdk8"))
-    compileOnly("kr.heartpattern:Spikot:4.0.0-SNAPSHOT")
+    compileOnly("kr.heartpattern:Spikot:4.0.1-SNAPSHOT")
     compileOnly("org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT")
 }
 
