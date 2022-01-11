@@ -1,13 +1,13 @@
-plugins{
-    id("kr.heartpattern.spikot") version "4.0.3"
+plugins {
+    kotlin("jvm") version "1.6.10"
     id("spigotdependency")
 }
 
-dependencies{
-    compile(project(":Common"))
+dependencies {
+//    implementation(project(":Common"))
 }
 
-spigotDependency{
+spigotDependency {
     version = "1.12.2"
     dependency = "org.spigotmc:spigot:1.12.2-R0.1-SNAPSHOT"
 }
